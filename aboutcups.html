@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CR7 childhood life</title>
+        <link rel="stylesheet" type="text/css" href="pej.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            body{
+                font-family: 'Poppins', sans-serif;
+                background-color: #d5d4d2;
+                
+                
+            }
+            
+            nav{
+                width: 100%;
+                height: 80px;
+                background-color: #24252A ;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 10;
+                box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+            
+               
+               display: flex;
+                justify-content:space-around;
+                align-items: center;
+            }
+            
+            .menu{
+                width: 600px;
+                height: 100%;
+                /*background-color: burlywood;*/
+            }
+            
+            .menu ul{
+                width: 100%;
+                height: 100%;
+                list-style-type: none;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color:white;
+                font-size: 0.9rem;
+            
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            
+            
+            .menu ul li a{
+                padding: 10px 20px;
+                border-radius: 25px;
+                margin: 80px;
+                
+            
+                color:rgb(255, 255, 255);
+                text-decoration: none;
+                transition: all 0.2s;
+            }
+            
+            .menu ul li a:hover{
+                color: rgb(255, 255, 255);
+                border: 1px solid rgb(102, 222, 222);
+            
+            }
+
+             .about h1{
+                
+                letter-spacing: 1px;
+                margin-top: 100px;
+                margin-left: 150px;
+                
+               
+            }
+            .about span{
+                color: rgb(192, 61, 61);
+            }
+
+            #cup{
+                width: 100%;
+                height: 500px;
+                /*background-color: cyan;*/
+            
+               margin-left: 120px;
+            
+                
+            }
+            
+            #cup .manche{
+                width: 80%;
+                height: 500px;
+                /*background-color: gray;*/
+           
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            
+            #cup .manche .manutd{
+                width: 250px;
+                height: 350px;
+                background-color: #2A2425;
+                box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+              border: 1px solid cyan;
+              
+            
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+            
+               
+            }
+            
+           
+
+            .manche .manutd p{
+                font-size: 0.9rem;
+                text-align: center;
+            color: azure;
+                width: 235px;
+                height: 85px;
+                /*background-color: brown;*/
+            
+               
+            }
+            
+            .manche .manutd img{
+                margin-top: 20px;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            
+            
+            .manche .manutd a{
+               position: relative;
+               padding: 8px 50px;
+               box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+             
+               color:#ffffff;
+	
+text-transform: uppercase;
+	text-decoration: none;
+    overflow: hidden;
+
+               margin-bottom: 20px;
+            }
+
+            .manche .manutd a:hover{
+                color: cyan;
+            }
+
+
+            a span:nth-child(1){
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 1px;
+                background: linear-gradient(to right, #2A2425, cyan);
+                animation: animate1 2s linear infinite;
+            
+            }
+
+            @keyframes animate1 {
+                0%{
+                    transform: translateX(-100%);
+                }
+                100%{
+                    transform: translateX(100%);
+                }
+            }
+
+            a span:nth-child(2){
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 1px;
+                height: 100%;
+                background: linear-gradient(to bottom, #2A2425, cyan);
+                animation: animate2 2s linear infinite;
+                animation-delay: 1s;
+               
+            }
+
+            @keyframes animate2 {
+                0%{
+                    transform: translateY(-100%);
+                }
+                100%{
+                    transform: translateY(100%);
+                }
+            }
+
+            a span:nth-child(3){
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 1px;
+                background: linear-gradient(to left, #2A2425, cyan);
+                animation: animate3 2s linear infinite;
+               
+            }
+
+            @keyframes animate3 {
+                0%{
+                    transform: translateX(100%);
+                }
+                100%{
+                    transform: translateX(-100%);
+                }
+            }
+                 
+            a span:nth-child(4){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 1px;
+                height: 100%;
+                background: linear-gradient(to right, #2A2425, cyan);
+                animation: animate4 2s linear infinite;
+                animation-delay: 1s;
+               
+            }
+
+            @keyframes animate4 {
+                0%{
+                    transform: translateY(100%);
+                }
+                100%{
+                    transform: translateY(-100%);
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <nav>
+               <div class="menu">
+                    <ul>
+                        <li><a href="pej.html">Home</a></li>
+                        <li><a href="childhood.html">Childhood</a></li>
+                        <li><a href="Carrer.html">Career</a></li>
+                        <li><a href="#">Aboutcups</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+            <div class="about">
+                <p><h1>About Cristiano <span>Ronaldo's</span> cups</h1></p>
+            </div>
+        <section id="cup">
+            <div class="manche">
+               <div class="manutd">
+                <img src="cr722.jpg">
+                <p>Cristiano Ronaldo's cups in Manchester United</p>
+              
+                <a href="Manchestar.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Next
+                    </a>
+               </div>
+
+               <div class="manutd">
+                <img src="cr724.jpg">
+                <p>Cristiano Ronaldo's cups in Real Madrid</p>
+               
+                <a href="Realmadrid.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Next
+                    </a>
+               </div>
+
+               <div class="manutd">
+                <img src="cr723.jpg">
+                <p>Cristiano Ronaldo's cups in Juventus</p>
+                
+                <a href="Juventus.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Next
+                    </a>
+               </div>
+               </div>
+
+        </section>
+        </body>
+        </html>
